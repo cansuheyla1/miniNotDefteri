@@ -1,0 +1,155 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .site-title h1 {
+    font-size: 1.6rem;
+}
+
+nav .site-title p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* CONTENT WRAPPER */
+.content {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+/* HEADINGS */
+h2 {
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+/* NOTES LIST */
+.title {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.content p,
+p.content {
+    margin-top: 0.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* CREATE NOTES FORM */
+.create-notes {
+    max-width: 600px;
+    margin: 3rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.create-notes label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.create-notes input,
+.create-notes textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.create-notes textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.create-notes button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #00bcd4;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.create-notes button:hover {
+    background: #0097a7;
+}
+
+/* ABOUT PAGE */
+.about p {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* EMPTY STATE */
+.content p {
+    color: #666;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 4rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    background-color: #f1f3f5;
+    border-top: 1px solid #e0e0e0;
+    font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer:hover {
+    color: #333;
+    transition: color 0.3s ease;
+}

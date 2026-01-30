@@ -6,13 +6,15 @@
     <%- include("./not_partials/not_nav.ejs") %>
 
     <div class="create-notes">
-        <form>
+        <form action="/create-notes" method="POST"> 
             <label for="title">Note title</label>
-            <input type="text" id="title" required>
+            <input type="text" id="title" name="title" required>
             <label for="body">Note content</label>
-            <textarea id="content" required></textarea>
+            <textarea id="content" name="content" required></textarea>
             <button>Save Note</button>
         </form>
     </div>
+
+    <%- include("./not_partials/not_footer.ejs") %>
 </body>
 </html>
