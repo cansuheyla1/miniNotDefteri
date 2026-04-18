@@ -1,0 +1,1 @@
+A simple notebook app built with JavaScript using Node.js for the backend and MongoDB for database management. It supports full CRUD operations, allowing users to create, read, update, and delete notes easily. This project was designed to practice backend development and database integration.
